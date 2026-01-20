@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dagim Abraham — Portfolio (Next.js)
+
+This repository now contains a Next.js (App Router) TypeScript app using Tailwind CSS. The original static site (Bootstrap template) was migrated into this project and assets are served from `public/assets`.
 
 ## Getting Started
 
@@ -29,8 +31,14 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deployment (Netlify)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- You can continue using Netlify. Update the site settings:
+  - Build command: `npm run build`
+  - Publish directory: leave empty (Netlify will detect Next.js and use plugin)
+  - Enable the `@netlify/plugin-nextjs` in your Netlify build plugins or use the official Next.js support.
+  - Set environment variables in Netlify's site settings (SMTP/SendGrid keys, `CONTACT_TO`).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Alternatively, Vercel provides first-class support for Next.js and is recommended for frictionless deployment.
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

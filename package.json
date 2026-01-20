@@ -1,7 +1,11 @@
 {
-  "name": "next-temp",
+  "name": "dagim-abraham-portfolio-website",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dagimAB/dagim-abraham-portfolio-website.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
